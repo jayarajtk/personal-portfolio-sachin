@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal portfolio website for Sachin Lal C P",
   "main": "index.js",
-  "homepage": "https://sachinlalcp.github.io/personal-portfolio-sachin",
+  "homepage": "https://jayarajtk.github.io/personal-portfolio-sachin",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
