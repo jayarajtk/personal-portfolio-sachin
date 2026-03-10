@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   linkedin: "linkedin.com/in/sachinlalcp",
   instagram: "instagram.com/its_sachinlal",
   location: "Kerala-Malappuram",
-  profileImage: "/assets/images/sachin-profile-pic.webp",
+  profileImage: "./assets/images/sachin-profile-pic.webp",
   resumeFile: "/assets/resume/Sachin_2026.pdf" // Add actual resume file
 };
 

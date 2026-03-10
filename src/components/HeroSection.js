@@ -101,7 +101,7 @@ const HeroSection = () => {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     // Fallback to a placeholder if image fails to load
-                    e.target.src = "https://picsum.photos/seed/sachinlal/400/400.jpg";
+                    e.target.src = process.env.PUBLIC_URL + "/assets/images/sachin-profile-pic.webp";
                   }}
                 />
               </div>
