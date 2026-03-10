@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/personal-portfolio-sachin/static/css/main.47c9bdde.css",
-    "main.js": "/personal-portfolio-sachin/static/js/main.98124cb2.js",
+    "main.js": "/personal-portfolio-sachin/static/js/main.fc7dc61d.js",
     "index.html": "/personal-portfolio-sachin/index.html",
     "main.47c9bdde.css.map": "/personal-portfolio-sachin/static/css/main.47c9bdde.css.map",
-    "main.98124cb2.js.map": "/personal-portfolio-sachin/static/js/main.98124cb2.js.map"
+    "main.fc7dc61d.js.map": "/personal-portfolio-sachin/static/js/main.fc7dc61d.js.map"
   },
   "entrypoints": [
     "static/css/main.47c9bdde.css",
-    "static/js/main.98124cb2.js"
+    "static/js/main.fc7dc61d.js"
   ]
 }
