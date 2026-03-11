@@ -87,39 +87,9 @@ export const SKILLS = [
 export const GALLERY_IMAGES = [
   {
     id: 1,
-    src: "/assets/images/gallery/achievement1.jpg",
-    alt: "Academic Achievement",
-    title: "Excellence in Teaching Award"
-  },
-  {
-    id: 2,
-    src: "/assets/images/gallery/social-work1.jpg",
-    alt: "Social Work",
-    title: "Community Healthcare Initiative"
-  },
-  {
-    id: 3,
-    src: "/assets/images/gallery/training1.jpg",
-    alt: "Training Session",
-    title: "Student Training Program"
-  },
-  {
-    id: 4,
-    src: "/assets/images/gallery/conference1.jpg",
-    alt: "Conference",
-    title: "Healthcare Management Conference"
-  },
-  {
-    id: 5,
-    src: "/assets/images/gallery/workshop1.jpg",
-    alt: "Workshop",
-    title: "HR Development Workshop"
-  },
-  {
-    id: 6,
-    src: "/assets/images/gallery/certification1.jpg",
-    alt: "Certification",
-    title: "Professional Certification"
+    src: process.env.PUBLIC_URL + "/assets/images/social/sachin-placement-drive.jpeg",
+    alt: "Placement Drive",
+    title: "Mega Placement Drive - Led & Interviewed Students"
   }
 ];
 

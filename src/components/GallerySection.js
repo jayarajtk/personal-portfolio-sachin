@@ -61,9 +61,13 @@ const GallerySection = () => {
             >
               <div className="aspect-w-16 aspect-h-12 bg-gray-200">
                 <img
-                  src={`https://picsum.photos/seed/${image.title}/400/300.jpg`}
+                  src={image.src}
                   alt={image.alt}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  onError={(e) => {
+                    // Fallback to placeholder if image fails to load
+                    e.target.src = `https://picsum.photos/seed/${image.title}/400/300.jpg`;
+                  }}
                 />
               </div>
               
@@ -148,9 +152,13 @@ const GallerySection = () => {
           
           <div className="max-w-4xl max-h-full">
             <img
-              src={`https://picsum.photos/seed/${selectedImage.title}/800/600.jpg`}
+              src={selectedImage.src}
               alt={selectedImage.alt}
               className="max-w-full max-h-full rounded-lg"
+              onError={(e) => {
+                // Fallback to placeholder if image fails to load
+                e.target.src = `https://picsum.photos/seed/${selectedImage.title}/800/600.jpg`;
+              }}
             />
             <div className="text-center mt-4">
               <h3 className="text-xl font-semibold text-white mb-2">{selectedImage.title}</h3>
