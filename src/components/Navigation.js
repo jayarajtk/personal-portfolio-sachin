@@ -18,6 +18,8 @@ const Navigation = () => {
     { label: 'About', href: '#summary' },
     { label: 'Experience', href: '#experience' },
     { label: 'Education', href: '#education' },
+    { label: 'Focus Areas', href: '#focus-areas' },
+    { label: 'Achievements', href: '#achievements' },
     { label: 'Skills', href: '#skills' },
     { label: 'Gallery', href: '#gallery' },
     { label: 'Contact', href: '#contact' }

@@ -3,6 +3,8 @@ import HeroSection from './components/HeroSection';
 import SummarySection from './components/SummarySection';
 import ExperienceSection from './components/ExperienceSection';
 import EducationSection from './components/EducationSection';
+import FocusAreasSection from './components/FocusAreasSection';
+import AchievementsSection from './components/AchievementsSection';
 import SkillsSection from './components/SkillsSection';
 import GallerySection from './components/GallerySection';
 import ContactSection from './components/ContactSection';
@@ -18,6 +20,8 @@ function App() {
         <SummarySection />
         <ExperienceSection />
         <EducationSection />
+        <FocusAreasSection />
+        <AchievementsSection />
         <SkillsSection />
         <GallerySection />
         <ContactSection />
