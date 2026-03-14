@@ -22,7 +22,7 @@ const FocusAreasSection = () => {
           </h2>
           <div id="focus-areas-divider" className="w-24 h-1 bg-primary-600 mx-auto rounded-full"></div>
           <p id="focus-areas-subtitle" className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            Strategic career focus at the intersection of healthcare administration, human resources, and digital transformation.
+            Key areas of expertise in developing comprehensive educational programs and student success initiatives.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ const FocusAreasSection = () => {
 
         <div id="focus-areas-strategy" className="mt-12 text-center">
           <div id="focus-areas-strategy-card" className="bg-gradient-to-r from-primary-600 to-primary-800 rounded-xl p-8 text-white">
-            <h3 id="focus-areas-strategy-title" className="text-2xl font-bold mb-4">Strategic Career Transition</h3>
+            <h3 id="focus-areas-strategy-title" className="text-2xl font-bold mb-4">Career Background</h3>
             <p id="focus-areas-strategy-desc" className="text-lg opacity-90 max-w-3xl mx-auto">
-              Successfully transitioning from 3+ years in banking operations to specialized healthcare administration 
-              and HR management education, bringing unique perspectives from finance and operations to healthcare innovation.
+              Leveraging 3+ years of banking operations experience to build excellence in healthcare education 
+              and administration, bringing analytical rigor and operational efficiency to academic programs.
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
   resumeFile: "/assets/resume/Sachin_2026.pdf" // Add actual resume file
 };
 
-export const PROFESSIONAL_SUMMARY = `Strategic thinker and versatile professional successfully transitioning from 3+ years in banking operations to specialized healthcare administration and HR management education. Currently serving as Faculty at CamerinSpark (Indian Institute Of Upskill), mentoring 258+ students in hospital operations, patient care quality, and strategic management. Expertise in HR metrics, people analytics, and digital transformation advocacy through Hospital Information Systems (HIS). Active knowledge sharer with "Day-wise" LinkedIn series on industry trends. Combines hard skills in Banking, IT, and Finance with soft skills in Teaching, HR, and Mentoring to develop industry-ready healthcare professionals.`;
+export const PROFESSIONAL_SUMMARY = `Strategic professional transitioning from banking operations to healthcare administration and HR education. Faculty at CamerinSpark, developing industry-ready healthcare professionals through specialized training and mentorship programs. Combines analytical expertise with teaching excellence to bridge the gap between academic learning and industry requirements.`;
 
 export const WORK_EXPERIENCE = [
   {
@@ -19,14 +19,11 @@ export const WORK_EXPERIENCE = [
     company: "CamerinSpark (Indian Institute Of Upskill)",
     period: "2024 – Present",
     responsibilities: [
-      "Mentor 258+ students in hospital operations, patient care quality, and strategic management",
-      "Deliver specialized training in HR metrics, people analytics, and strategic workforce planning",
-      "Advocate for digital transformation and AI integration in healthcare workflows",
-      "Manage end-to-end placement drives from orientation to HR interviews",
-      "Maintain 'Day-wise' LinkedIn series sharing insights on HIS, operations metrics, and industry trends",
-      "Develop curriculum aligned with healthcare industry standards and emerging technologies",
-      "Coordinate internship programs with healthcare institutions",
-      "Ensure academic quality and institutional compliance"
+      "Develop and deliver curriculum for hospital administration and HR management courses",
+      "Coordinate internship programs and placement drives with healthcare institutions",
+      "Create and maintain industry-focused training materials and assessments",
+      "Ensure academic quality standards and institutional compliance",
+      "Provide student mentorship and career guidance"
     ]
   },
   {
@@ -81,51 +78,44 @@ export const EDUCATION = [
 
 export const SKILLS = [
   "Human Resource Management",
-  "Hospital Administration",
-  "HR Metrics & People Analytics",
-  "Strategic Workforce Planning",
-  "Digital Transformation in Healthcare",
-  "AI Integration in Healthcare Workflows",
-  "Hospital Information Systems (HIS)",
-  "Recruitment & Selection",
+  "Hospital Administration", 
+  "Curriculum Development",
+  "Student Mentoring & Career Guidance",
+  "Healthcare Information Systems (HIS)",
+  "Digital Transformation",
+  "Banking Operations & Compliance",
   "Training & Development",
   "Performance Management",
-  "HR Operations",
-  "Banking Operations",
-  "Gold Loan Processing",
-  "Internal Audit Support",
-  "Compliance & KYC Verification",
-  "Documentation & Record Management",
-  "Internship Coordination & Student Mentoring",
-  "CRM Handling",
-  "MS Excel, Word, PPT & Reporting",
   "Process Improvement",
-  "Strategic Thinking",
-  "Knowledge Sharing & Thought Leadership"
+  "Strategic Planning",
+  "Quality Assurance",
+  "MS Office Suite",
+  "CRM Systems",
+  "Documentation Management"
 ];
 
 export const ACHIEVEMENTS = [
   {
-    title: "Placement Drive Success",
-    description: "Successfully managed end-to-end placement drive for 258+ students, from orientation to HR interviews",
+    title: "Student Development Impact",
+    description: "Successfully placed 258+ students in healthcare roles through comprehensive training programs",
     icon: "Award",
-    date: "2024"
+    date: "2026"
   },
   {
     title: "Professional Certification",
-    description: "Earned HR Management Assessment certification from LearnTube.ai",
+    description: "Completed HR Management Assessment certification from LearnTube.ai",
     icon: "Certificate",
     date: "2024"
   },
   {
-    title: "Academic Leadership",
-    description: "Executive Member of University Union at CUSAT, demonstrating strong leadership and community organizing",
+    title: "Leadership Excellence",
+    description: "Executive Member of University Union at CUSAT, organized major campus events",
     icon: "Users",
     date: "2018-2020"
   },
   {
-    title: "Thought Leadership",
-    description: "Maintains 'Day-wise' LinkedIn series sharing insights on HIS, operations metrics, and industry trends",
+    title: "Industry Knowledge Sharing",
+    description: "Regular LinkedIn contributor on healthcare operations and HR best practices",
     icon: "BookOpen",
     date: "Ongoing"
   }
@@ -133,23 +123,23 @@ export const ACHIEVEMENTS = [
 
 export const FOCUS_AREAS = [
   {
-    title: "Healthcare Education",
-    description: "Mentoring students in hospital operations, patient care quality, and strategic management",
+    title: "Academic Program Development",
+    description: "Creating comprehensive curriculum and training materials for healthcare education",
     icon: "GraduationCap"
   },
   {
-    title: "HR Management",
-    description: "Specialized in HR metrics, people analytics, and strategic workforce planning",
+    title: "Student Career Development",
+    description: "Facilitating internships, placements, and professional growth opportunities",
     icon: "Users"
   },
   {
-    title: "Hospital Information Systems (HIS)",
-    description: "Advocating for digital transformation and AI integration within healthcare workflows",
+    title: "Healthcare Technology Integration",
+    description: "Promoting digital tools and systems for modern healthcare administration",
     icon: "Laptop"
   },
   {
-    title: "Operational Excellence",
-    description: "Leveraging banking background to improve efficiency and customer service strategies",
+    title: "Quality Assurance",
+    description: "Ensuring educational standards and continuous program improvement",
     icon: "TrendingUp"
   }
 ];

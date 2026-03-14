@@ -4,9 +4,9 @@ import SummarySection from './components/SummarySection';
 import ExperienceSection from './components/ExperienceSection';
 import EducationSection from './components/EducationSection';
 import FocusAreasSection from './components/FocusAreasSection';
-import AchievementsSection from './components/AchievementsSection';
+// import AchievementsSection from './components/AchievementsSection'; // Hidden for now
 import SkillsSection from './components/SkillsSection';
-import GallerySection from './components/GallerySection';
+// import GallerySection from './components/GallerySection'; // Hidden for now
 import ContactSection from './components/ContactSection';
 import Navigation from './components/Navigation';
 import './index.css';
@@ -21,9 +21,9 @@ function App() {
         <ExperienceSection />
         <EducationSection />
         <FocusAreasSection />
-        <AchievementsSection />
+        {/* <AchievementsSection /> */}
         <SkillsSection />
-        <GallerySection />
+        {/* <GallerySection /> */}
         <ContactSection />
       </main>
       <footer className="bg-secondary-900 text-white py-8 text-center">
